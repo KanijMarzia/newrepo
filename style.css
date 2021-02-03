@@ -24,12 +24,29 @@ p{
 .half-width img{
     width: 100%;
 }
-.top-banner{
+.working-project-div{
+    width: 28%;
+    padding: 1%;
+    margin: 0% 1% 1% 1%;
+    float: left;
+    background-color: white;
+    
+
+}
+.working-project-div img{
+    width: 100%;
+}
+.bottom-section{
+    background-image: linear-gradient(40deg,#cff3ec,#f1f3f7);;
+    margin: 2%;
+    padding: 4%;
+}
+/*.top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-}
-section{
-    height: 500px;
+} */
+.section-height-padding{
+   height: 500px;
     padding-bottom: 150px;
 }
 .link-button{
@@ -40,33 +57,77 @@ section{
     color:white;
     font-weight: bold;
 }
+  
+.work-industry-div{
+    background-image:url("images/Group_33094_1.png");
+    background-size: 100%;
+    color: white;
+    margin: 5% 5% 5% 5%;
+    padding: 8.3%;
+
+}
 .dream-area{
-    background-image: url("images/dream-bg.png");
+   /* background-image: url("images/dream-bg.png");*/
     background-repeat: no-repeat;
     background-position: right;
+    
 }
+/*
 .single-exprience{
     box-shadow: 10px 10px 50px gray;
     border-radius: 5px;
-    height: 65%;
+    height: 15%;
     background-color: white;
-}
+} */
 .exprience-area{
-    background-image: url("images/exp-bg.png");
+    
+    /*background-image: url("images/exp-bg.png");*/
     background-repeat: no-repeat;
     background-position: left;
 }
+/*.work-industry-half{
+    width: 25%;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+}*/
+
+
+#h1{
+    width: 80%;
+    display: inline;
+}
+
+#work-industry-link-button{
+    text-decoration: none;
+    background: linear-gradient(57deg,#00c6a7,#1e4d92);
+    padding:10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    float:right;
+
+} 
+#text-last{
+    font-size: 40px;
+    text-align: center;
+
+}
 #full-stack{
-    border-left: 6px solid;
-    border-image:linear-gradient(57deg,#089D3D ,#0C75C0 );
-    border-image-slice: 1;
+    border: 6px  ;
+    border-radius: 4%;
+   /* border-image:linear-gradient(57deg,#089D3D ,#0C75C0 );
+    border-image-slice: fill;*/
+    
 }
 #baby-web{
-    border-left: 6px solid;
-    border-image:linear-gradient(180deg,blue ,cyan );
-    border-image-slice: 1;
+    border: 6px ;
+    border-radius: 4%;
+    /* border-image:linear-gradient(180deg,blue ,cyan );
+    border-image-slice: 1;*/
 }
 footer p{
     text-align: center;
     font-size:12px;
+    float: bottom;
 }
